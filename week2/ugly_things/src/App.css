@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: "MV Boli", Times, serif;
+  background-color: thistle;
+}
+
+.title {
+  background-color: darkslategrey;
+  text-decoration: underline;
+  height: 6em;
+  padding: 30px;
+  margin: 0;
+  color: teal;
+}
+
+.input {
+  margin: 10px;
+  height: 2em;
+  width: 14em;
+}
+
+button {
+  background-color: darkslategrey;
+  border: none;
+  color: teal;
+  height: 2.5em;
+  width: 6em;
+}
+
+img {
+  height: 12em;
+  width: 12em;
+}
