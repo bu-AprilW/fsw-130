@@ -1,0 +1,66 @@
+body {
+  font-family: "MV Boli", Times, serif;
+  margin: 0;
+  background-color: lightslategray;
+}
+
+.timer {
+  text-align: center;
+}
+
+.theTimer {
+  font-size: 76px;
+  font-weight: 100;
+  line-height: 160px;
+  margin: 0;
+  border: solid black;
+  border-width: 1px 0;
+  background-color: whitesmoke;
+}
+
+.timerLaps {
+  padding: 0 0 0 20px;
+  list-style-type: none;
+}
+
+.timerLap {
+  font-size: 20px;
+  line-height: 60px;
+  padding-right: 20px;
+  text-align: right;
+  border-bottom: 1px solid black;
+}
+
+.timerLap strong {
+  float: left;
+  color: lightgrey;
+  font-weight: 100;
+}
+
+.timerLap strong::before {
+  content: 'Lap '
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 20px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin: 24px;
+  padding: 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: whitesmoke;
+}
+
+.startBtn {
+  color: green
+}
+
+.stopBtn {
+  color: red;
+}

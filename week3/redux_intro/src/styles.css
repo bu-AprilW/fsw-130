@@ -1,0 +1,35 @@
+body {
+    font-family: "MV Boli", Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: aqua;
+}
+
+.title {
+    font-size: 88px;
+    float: center;
+}
+
+.button {
+    outline: none;
+    background-color: aqua;
+    border: none;
+    padding: 12px 20px;
+    margin: 14px;
+    border-radius: 500px;
+    font-size: 15px;
+    font-family: "MV Boli", Times, serif;
+    font-weight: 800;
+}
+
+.button:hover {
+    box-shadow: 3px 4px 6px black;
+}
+
+.time {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+}
