@@ -1,0 +1,53 @@
+* {
+  background-color: grey;
+  font-family: "MV Boli", Times, serif;
+}
+
+#myForm {
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-decoration: underline orchid;
+}
+
+input {
+  background-color: whitesmoke;
+}
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contacts {
+  text-align: center;
+}
+
+#submitBtn {
+  background-color: orchid;
+  color: black;
+}
+
+#submitBtn:hover {
+  background-color: black;
+  color: orchid;
+}
+
+#deleteBtn {
+  background-color: black;
+  color: orchid;
+}
+
+#deleteBtn:hover {
+  background-color: orchid;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: orchid;
+}

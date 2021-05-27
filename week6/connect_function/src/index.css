@@ -1,0 +1,38 @@
+body {
+  font-family: "MV Boli", Times, serif;
+  text-align: center;
+  background-color: grey;
+}
+
+.row {
+  background-color: whitesmoke;
+}
+
+.formControl {
+  height: 2em;
+}
+
+.addBtn {
+  background-color: whitesmoke;
+  border: none;
+  height: 2em;
+  width: 4em;
+  margin: 10px;
+}
+
+.deleteBtn {
+  background-color: red;
+  height: 2em;
+  color: whitesmoke;
+  border: none;
+  margin: 10px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.listGroup {
+  list-style-type: none;
+}
